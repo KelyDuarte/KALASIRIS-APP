@@ -1,0 +1,102 @@
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(239, 233, 182);
+    margin: 0;
+    padding: 0;
+}
+
+h6{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(214, 193, 241);
+    color: rgb(8, 8, 7);
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #e6bf6a;
+}
+
+.container{
+    width: 200%;
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+.container.card{
+    width: 200;
+    height: 400%;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 200px;
+    text-align: center;
+    transform: all 0.25s;
+}
+
+.container .card:hover{
+    box-shadow: 0 12px 16px rgba(124, 4, 164, 0.2);
+    transform: translateY(-3%);
+}
+
+.container .card img{
+    width: 287px;
+    height: 230px;
+    margin: 10;
+    padding: 10;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom:35px;
+    right:35px;
+}
+
+.carrusel{
+    width: 100%;
+    height: 20%;
+}
+
+.Login:hover{
+    box-shadow: 0 12px 16px  rgba(124, 4, 164, 0.2);
+    transform: translateY(-3%);
+}
+
+.Carrito{
+    box-shadow: 0 12px 16px  rgba(124, 4, 164, 0.2);
+    transform: translateY(-3%);
+}
+
+button{
+    border: 0;
+    margin: 5px;
+
+}
